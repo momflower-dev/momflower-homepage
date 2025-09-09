@@ -1,0 +1,170 @@
+{
+  "title": "맘꽃가든 스마트팜 구축사례 - 파일 목록",
+  "description": "LLM 분석을 위해 연도별/월별로 분할된 구축사례 파일들",
+  "total_files": 27,
+  "files": [
+    {
+      "filename": "construction_cases_2018.json",
+      "size_kb": 1.2,
+      "total_cases": 1,
+      "period": "2018년"
+    },
+    {
+      "filename": "construction_cases_2019.json",
+      "size_kb": 35.6,
+      "total_cases": 50,
+      "period": "2019년"
+    },
+    {
+      "filename": "construction_cases_2020.json",
+      "size_kb": 11.6,
+      "total_cases": 20,
+      "period": "2020년"
+    },
+    {
+      "filename": "construction_cases_2021.json",
+      "size_kb": 10.0,
+      "total_cases": 13,
+      "period": "2021년"
+    },
+    {
+      "filename": "construction_cases_2022_02.json",
+      "size_kb": 0.9,
+      "total_cases": 1,
+      "period": "2022년 02월"
+    },
+    {
+      "filename": "construction_cases_2022_03.json",
+      "size_kb": 5.5,
+      "total_cases": 5,
+      "period": "2022년 03월"
+    },
+    {
+      "filename": "construction_cases_2022_04.json",
+      "size_kb": 2.3,
+      "total_cases": 2,
+      "period": "2022년 04월"
+    },
+    {
+      "filename": "construction_cases_2022_06.json",
+      "size_kb": 1.6,
+      "total_cases": 1,
+      "period": "2022년 06월"
+    },
+    {
+      "filename": "construction_cases_2022_08.json",
+      "size_kb": 5.9,
+      "total_cases": 4,
+      "period": "2022년 08월"
+    },
+    {
+      "filename": "construction_cases_2022_09.json",
+      "size_kb": 2.2,
+      "total_cases": 3,
+      "period": "2022년 09월"
+    },
+    {
+      "filename": "construction_cases_2022_10.json",
+      "size_kb": 2.0,
+      "total_cases": 2,
+      "period": "2022년 10월"
+    },
+    {
+      "filename": "construction_cases_2022_11.json",
+      "size_kb": 31.2,
+      "total_cases": 26,
+      "period": "2022년 11월"
+    },
+    {
+      "filename": "construction_cases_2022_12.json",
+      "size_kb": 32.0,
+      "total_cases": 25,
+      "period": "2022년 12월"
+    },
+    {
+      "filename": "construction_cases_2023_01.json",
+      "size_kb": 11.1,
+      "total_cases": 13,
+      "period": "2023년 01월"
+    },
+    {
+      "filename": "construction_cases_2023_02.json",
+      "size_kb": 18.9,
+      "total_cases": 12,
+      "period": "2023년 02월"
+    },
+    {
+      "filename": "construction_cases_2023_03.json",
+      "size_kb": 27.7,
+      "total_cases": 18,
+      "period": "2023년 03월"
+    },
+    {
+      "filename": "construction_cases_2023_04.json",
+      "size_kb": 13.8,
+      "total_cases": 10,
+      "period": "2023년 04월"
+    },
+    {
+      "filename": "construction_cases_2023_05.json",
+      "size_kb": 18.2,
+      "total_cases": 14,
+      "period": "2023년 05월"
+    },
+    {
+      "filename": "construction_cases_2023_06.json",
+      "size_kb": 6.5,
+      "total_cases": 5,
+      "period": "2023년 06월"
+    },
+    {
+      "filename": "construction_cases_2023_07.json",
+      "size_kb": 4.8,
+      "total_cases": 5,
+      "period": "2023년 07월"
+    },
+    {
+      "filename": "construction_cases_2023_08.json",
+      "size_kb": 5.2,
+      "total_cases": 5,
+      "period": "2023년 08월"
+    },
+    {
+      "filename": "construction_cases_2023_09.json",
+      "size_kb": 6.6,
+      "total_cases": 6,
+      "period": "2023년 09월"
+    },
+    {
+      "filename": "construction_cases_2023_10.json",
+      "size_kb": 11.9,
+      "total_cases": 9,
+      "period": "2023년 10월"
+    },
+    {
+      "filename": "construction_cases_2023_11.json",
+      "size_kb": 2.7,
+      "total_cases": 2,
+      "period": "2023년 11월"
+    },
+    {
+      "filename": "construction_cases_2023_12.json",
+      "size_kb": 4.4,
+      "total_cases": 5,
+      "period": "2023년 12월"
+    },
+    {
+      "filename": "construction_cases_2024.json",
+      "size_kb": 67.8,
+      "total_cases": 70,
+      "period": "2024년"
+    },
+    {
+      "filename": "construction_cases_2025.json",
+      "size_kb": 6.9,
+      "total_cases": 6,
+      "period": "2025년"
+    }
+  ],
+  "total_cases": 333
+}
