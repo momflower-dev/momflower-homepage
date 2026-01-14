@@ -2009,34 +2009,34 @@ export default function Home() {
 
     <div className="grid lg:grid-cols-2 gap-12">
       {/* Google Maps */}
-      <div 
-        className="bg-white/80 backdrop-blur-md rounded-2xl p-2 border border-gray-200 shadow-lg"
-        data-aos="fade-right"
-        data-aos-delay="200"
+      <div
+          className="bg-white/80 backdrop-blur-md rounded-2xl p-2 border border-gray-200 shadow-lg"
+          data-aos="fade-right"
+          data-aos-delay="200"
       >
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d642.410759272566!2d126.5222!3d33.51115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDMwJzQwLjEiTiAxMjbCsDMxJzE5LjkiRQ!5e0!3m2!1sko!2skr!4v1740243380703!5m2!1sko!2skr"
-          width="100%" 
-          height="450" 
-          style={{ border: 0, borderRadius: '1rem' }}
-          allowFullScreen
-          loading="lazy" 
-          referrerPolicy="no-referrer-when-downgrade"
-          suppressHydrationWarning
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1377.1962661989937!2d126.55179492958086!3d33.45059567871316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCA1MTbroZwgMzA5NQ!5e0!3m2!1sko!2skr!4v1768368841383!5m2!1sko!2skr"
+            width="100%"
+            height="450"
+            style={{border: 0, borderRadius: '1rem'}}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            suppressHydrationWarning
         />
       </div>
 
       {/* 연락처 정보 */}
-      <div 
-        className="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200 shadow-lg"
-        data-aos="fade-left"
-        data-aos-delay="300"
+      <div
+          className="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200 shadow-lg"
+          data-aos="fade-left"
+          data-aos-delay="300"
       >
         <h3 className="text-2xl font-bold text-gray-900 mb-6">연락처 안내</h3>
         <p className="text-gray-700 mb-8">
           스마트팜 구축 및 컨설팅에 관한 문의사항이 있으시면 아래 연락처로 연락 주시기 바랍니다.
         </p>
-        
+
         <div className="space-y-6">
           <div className="flex items-start space-x-4">
             <div className="bg-emerald-100 p-3 rounded-full">
@@ -2046,17 +2046,17 @@ export default function Home() {
               <h4 className="font-semibold text-gray-900 mb-2">주소</h4>
               <div className="relative group">
                 <p className="text-gray-700 leading-relaxed select-text cursor-text">
-                  본사 : [63169] 제주특별자치도 제주시 중앙로14길 21<br />
-                  (제주대학교 창업보육센터) 402호<br />
+                  본사 : [63244] 제주특별자치도 제주시 516로 3095<br />
+                  (제주지식산업센터) 207호<br />
                   공장 사무실: [63148] 제주특별자치도 제주시 연삼로 165 2층 
                 </p>
                 {isClient && (
                   <button
-                    onClick={(e) => copyToClipboard('제주특별자치도 제주시 중앙로14길 21 (제주대학교 창업보육센터) 402호', '주소', e)}
+                    onClick={(e) => copyToClipboard('제주특별자치도 제주시 516로 3095 (제주지식산업센터) 207호', '주소', e)}
                     onTouchEnd={(e) => {
                       e.preventDefault();
                       e.stopPropagation();
-                      copyToClipboard('제주특별자치도 제주시 중앙로14길 21 (제주대학교 창업보육센터) 402호', '주소', e);
+                      copyToClipboard('제주특별자치도 제주시 516로 3095 (제주지식산업센터) 207호', '주소', e);
                     }}
                     className="absolute -right-2 top-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-emerald-600 hover:bg-emerald-700 text-white p-1.5 rounded text-xs touch-manipulation"
                     title="주소 복사"
@@ -2128,8 +2128,8 @@ export default function Home() {
         <div className="mt-8 p-6 bg-emerald-50 rounded-xl border border-emerald-200">
           <h4 className="font-semibold text-emerald-800 mb-3">🚗 교통 안내</h4>
           <div className="text-sm text-emerald-700 space-y-2">
-            <p><strong>버스:</strong> 관덕정(남) 정류장 하차 후 도보 5분</p>
-            <p><strong>자가용:</strong> 제주대학교 창업보육센터 주차장 이용</p>
+            <p><strong>버스:</strong> 사회복지법인 춘강[서] 또는 별빛누리공원 입구 정류장 하차 후 도보 5분</p>
+            <p><strong>자가용:</strong> 제주지식산업센터 주차장 이용</p>
             <p><strong>방문 시:</strong> 사전 연락 후 방문해 주시기 바랍니다.</p>
           </div>
         </div>
@@ -2145,7 +2145,7 @@ export default function Home() {
             © Copyright <strong>맘꽃</strong>주식회사. All Rights Reserved
           </div>
           <div className="text-emerald-200 text-sm select-text">
-            주소: 제주특별자치도 제주시 중앙로14길 21 (제주대학교 창업보육센터) 403호 | 우편번호: 63169 | 이메일: mfgarden@naver.com | 전화: 070-8860-2966
+            주소: 제주특별자치도 제주시 516로 3095 (제주지식산업센터) 207호 | 우편번호: 63244 | 이메일: mfgarden@naver.com | 전화: 070-8860-2966
           </div>
         </div>
       </footer>
